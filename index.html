@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones en JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Funciones en JavaScript</h1>
+
+        <div class="section">
+            <h2>Mostrar "¡Hola, mundo!"</h2>
+            <button class="btn" onclick="mostrarHola()">Mostrar Hola Mundo</button>
+        </div>
+
+        <div class="section">
+            <h2>Mostrar "¡Hola, [nombre]!"</h2>
+            <input type="text" id="nombre" placeholder="Introduce tu nombre">
+            <button class="btn" onclick="mostrarHolaNombreHTML()">Mostrar Saludo</button>
+        </div>
+
+        <div class="section">
+            <h2>Calcular el doble de un número</h2>
+            <input type="number" id="numeroDoble" placeholder="Introduce un número">
+            <button class="btn" onclick="calcularDobleHTML()">Calcular Doble</button>
+        </div>
+
+        <div class="section">
+            <h2>Calcular el promedio de tres números</h2>
+            <input type="number" id="num1" placeholder="Número 1">
+            <input type="number" id="num2" placeholder="Número 2">
+            <input type="number" id="num3" placeholder="Número 3">
+            <button class="btn" onclick="calcularPromedioHTML()">Calcular Promedio</button>
+        </div>
+
+        <div class="section">
+            <h2>Encontrar el mayor de dos números</h2>
+            <input type="number" id="numMayor1" placeholder="Número 1">
+            <input type="number" id="numMayor2" placeholder="Número 2">
+            <button class="btn" onclick="encontrarMayorHTML()">Encontrar Mayor</button>
+        </div>
+
+        <div class="section">
+            <h2>Calcular el cuadrado de un número</h2>
+            <input type="number" id="numeroCuadrado" placeholder="Introduce un número">
+            <button class="btn" onclick="cuadradoHTML()">Calcular Cuadrado</button>
+        </div>
+    </div>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
